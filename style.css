@@ -1,0 +1,57 @@
+
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.calcContainer {
+    margin: 0 auto;
+    border: 5px solid red;
+    height: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.display {
+    height: 50px;
+    width: 100%;
+    border: 5px solid black;
+}
+
+button {
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 3em;
+    height: 75px;
+    width: 120px;;
+    background-color: lightcoral;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.operatorDiv {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.operator {
+    font-size: 2.5em;;
+    height: 50px;
+    width: 100px;
+}
+
+.equals {
+    font-size: 2.5em;;
+    height: 50px;
+    width: 100px;
+}
